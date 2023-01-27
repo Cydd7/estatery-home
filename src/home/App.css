@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  /* color: #7a4ff5; */
+  /* e9e4fd */
+  color: rgb(242, 239, 255);
+  /* color: #d1c8ed */
+  /* color: #f5f2ff; */
+  /* color: #f7f5ff; */
+  /* color: #392c79; */
+  /* color: #999999; */
+}
+
+.Navbar-box {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  padding-bottom: 15px;
+  z-index: 999;
+  transition: all 0.5s ease;
+}
+
+.Navbar-box-anim {
+  background: linear-gradient(
+    to right,
+    #e9e4fd,
+    #e3dcfc,
+    #dcd4fc,
+    #d6ccfb,
+    #cfc4fa
+  );
+  z-index: 999;
+  transition: all 0.5s ease;
+}
+.Nav-sticky {
+  box-shadow: 0 5px 8px 0 rgb(0 0 0 / 45%);
+  transform: scale(1.007);
+}
+
+.MuiButton-text:hover {
+  /* color: #6a3fe1; */
+  /* background: #ede9ff; */
+}
+
+.MuiButton-outlinedPrimary {
+  border: 1px solid #d5cff5;
+}
+
+.Mui-focused {
+  border-radius: 8px;
+}

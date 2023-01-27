@@ -1,0 +1,3 @@
+###
+
+GET https://estatery-backend.netlify.app/.netlify/functions/api/estatery/properties

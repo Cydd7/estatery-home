@@ -1,0 +1,34 @@
+@keyframes expand {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.reserve-bar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #d1c8ed;
+  /* transition: all 0.5s ease; */
+}
+
+.reserve-bar-processing {
+  width: 100%;
+  animation: expand 5s ease-in-out;
+}
+
+@keyframes hanging {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
